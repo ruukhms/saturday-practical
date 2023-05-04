@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Snowman with Spots</title>
+    <style>
+      /* Styles for Snowman */
+      .snowball {
+        border: 2px solid black;
+        border-radius: 50%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .bottom {
+        height: 200px;
+        width: 200px;
+        bottom: 23px;
+        
+      }
+      .middle {
+        height: 150px;
+        width: 150px;
+        bottom: 226px;
+      }
+      .top {
+        height: 100px;
+        width: 100px;
+        bottom: 380px;
+      }
+      /* Styles for Spots */
+      .spot {
+        background-color: black;
+        border-radius: 50%;
+        position: absolute;
+      }
+      .eye-left,
+      .eye-right {
+        height: 20px;
+        width: 20px;
+        top: 34%;
+        transform: translateY(-50%);
+      }
+      .eye-left {
+        left: 47%;
+      }
+      .eye-right {
+        right: 47%;
+      }
+      .button {
+        height: 20px;
+        width: 20px;
+      }
+      .button-top,
+      .button-bottom,
+      .button-middle {
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .button-top {
+        top: 45%;
+      }
+      .button-middle {
+        top: 52.5%;
+      }
+      .button-bottom{
+        top: 60%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="snowball bottom"></div>
+    <div class="snowball middle"></div>
+    <div class="snowball top"></div>
+    <div class="spot eye-left"></div>
+    <div class="spot eye-right"></div>
+    <div class="spot button button-top"></div>
+    <div class="spot button button-middle"></div>
+    <div class="spot button button-bottom"></div>
+  </body>
+</html>

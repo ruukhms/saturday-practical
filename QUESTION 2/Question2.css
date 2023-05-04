@@ -1,0 +1,13 @@
+h1{
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    color: rgb(rgb(212, 62, 62), green, blue);
+    font-style: italic;
+}
+h3{
+    color: rgb(red, green, rgb(147, 147, 243));
+    font-style: oblique;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+      function changeStyle(){
+        var element = document.getElementById("myDiv");
+        element.style.display = "block";
+    }
+    function Q3(){
+        var element = document.getElementById("Q3");
+        element.style.display = "block";
+    }
+     
+    </script>
+    <style>
+        .container{
+            height: 500px;
+            width: 35%;
+            border: 1px solid black;
+            margin: auto;
+            margin-top: 20px;
+            border-radius: 20px;
+        }
+        #myDiv, #Q3{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="q1">
+            <h3 style="text-align: center">Plz answer The Following Question</h3>
+            <h3 style="text-align: center">First Question</h3>
+            What is your Name
+            <input type="text"> <br> <br>
+            <button onclick="changeStyle()">next</button>
+        </div>
+        <div id="myDiv">
+            <h3 style="text-align: center">second Question</h3>
+            What is your Name
+            <input type="text"> <br> <br>
+            <button onclick="Q3()">next</button>
+        </div>
+        <div id="Q3">
+            <h3 style="text-align: center">second Question</h3>
+            What is your Name
+            <input type="text"> <br> <br>
+            <button>next</button>
+        </div>
+        <button> </button>
+    </div>
+    
+</body>
+</html>
